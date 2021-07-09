@@ -25,6 +25,8 @@ const App = () => {
 
 
     // if (!fontsLoaded) {
+
+
     //     return <AppLoading/>
     // } else {
     return (
