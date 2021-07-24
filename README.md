@@ -1,8 +1,8 @@
 # OnBoarding UI Design
-**This is a simple OnBoarding UI design page, Consisting of an image styled partially with opposite radius, a styled header and a text description body content.
+**This is a simple OnBoarding UI design page, Consisting of images styled partially with opposite sides having radius properties, a styled header and a text description body content.
 A fully functional pagination dot is displayed below the page and next to it are the prev and next navigation button to move to the previous and next slides respectively.**
 
-
+**Video**
 https://user-images.githubusercontent.com/81614588/126880155-23621c85-5ba0-45bd-aee9-747932cc026a.mp4
 
 **Edge View**
