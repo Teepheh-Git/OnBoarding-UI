@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet, Image, Dimensions, Text, View} from 'react-native';
+import { StyleSheet, Image, Dimensions, Text, View } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign'
 import Swiper from 'react-native-swiper'
 // import AppLoading from 'expo-app-loading'
@@ -34,7 +34,7 @@ const App = () => {
                 position: "absolute",
                 bottom: 0,
                 left: 0,
-                flex: 1,
+                flex: 1, 
                 paddingHorizontal: 30,
                 paddingVertical: 20,
                 justifyContent: "flex-end",
@@ -46,7 +46,7 @@ const App = () => {
                 marginRight: w * 0.7,
                 marginBottom: h * 0.02,
             }}
-            activeDotColor="#23a8dc"
+            activeDotColor="#DC23CD"
             dotColor="#998FA2"
 
             nextButton={
@@ -57,10 +57,10 @@ const App = () => {
                         alignItems: "center",
                         justifyContent: "center",
                         width: 60,
-                        backgroundColor: "#23a8dc",
+                        backgroundColor: "#DC23CD",
                     }}
                 >
-                    <AntDesign name="arrowright" size={22} color="#FFF"/>
+                    <AntDesign name="arrowright" size={22} color="#FFF" />
                 </View>
             }
             prevButton={
@@ -71,49 +71,53 @@ const App = () => {
                         alignItems: "center",
                         justifyContent: "center",
                         width: 60,
-                        backgroundColor: "#23a8dc",
+                        backgroundColor: "#DC23CD",
                         marginHorizontal: 20,
                     }}
                 >
-                    <AntDesign name="arrowleft" size={22} color="#FFF"/>
+                    <AntDesign name="arrowleft" size={22} color="#FFF" />
                 </View>
             }
         >
             <View style={styles.slide}>
-                <Image source={require("./images/img.png")} style={styles.img}/>
-                <Text style={styles.title}>Meet Up UI-Kit</Text>
+                <Image source={require("./images/img.png")} style={styles.img} />
+                <Text style={styles.title}>Stretch Up The Body</Text>
                 <Text style={styles.text}>
-                    When I was 5 years old, my mother always told me that happiness was
-                    the key to life. When I went to school, they asked me what I wanted
-                    to be when I grew up.
+                    The word 'Yoga' is derived from the Sanskrit root 'Yuj',
+                    meaning 'to join' or 'to yoke' or 'to unite'. As per Yogic scriptures the practice of Yoga
+                    leads to the union of
+                    individual consciousness with that of the Universal Consciousness,
+                    indicating a perfect harmony between the mind and body, Man & Nature.
+
                 </Text>
             </View>
             <View style={styles.slide}>
-                <Image source={require("./images/img2.png")} style={styles.img}/>
-                <Text style={styles.title}>Discover</Text>
+                <Image source={require("./images/img2.png")} style={styles.img} />
+                <Text style={styles.title}>Discover With Meditation</Text>
                 <Text style={styles.text}>
-                    When I was 5 years old, my mother always told me that happiness was
-                    the key to life. When I went to school, they asked me what I wanted
-                    to be when I grew up.
+                    Consciousness is often likened to a stream, shifting and changing smoothly as it
+                    passes over the terrain. Meditation is one deliberate means of changing the course of this stream,
+                    and in turn, altering how you perceive and respond to the world around you.
                 </Text>
             </View>
 
             <View style={styles.slide}>
-                <Image source={require("./images/img3.png")} style={styles.img}/>
-                <Text style={styles.title}>Get Started</Text>
+                <Image source={require("./images/img3.png")} style={styles.img} />
+                <Text style={styles.title}>Experience Nature</Text>
                 <Text style={styles.text}>
-                    When I was 5 years old, my mother always told me that happiness was
-                    the key to life. When I went to school, they asked me what I wanted
-                    to be when I grew up.
+                    Research reveals that environments can increase or reduce our stress,
+                    which in turn impacts our bodies.
+                    What you are seeing, hearing, experiencing at any moment
+                    is changing not only your mood, but how your nervous, endocrine, and immune systems are working.
                 </Text>
             </View>
             <View style={styles.slide}>
-                <Image source={require("./images/img4.png")} style={styles.img}/>
-                <Text style={styles.title}>Welcome</Text>
+                <Image source={require("./images/img4.png")} style={styles.img} />
+                <Text style={styles.title}>Explore Nature</Text>
                 <Text style={styles.text}>
-                    When I was 5 years old, my mother always told me that happiness was
-                    the key to life. When I went to school, they asked me what I wanted
-                    to be when I grew up.
+                    Don’t focus on the distance or destination, just enjoy the journey.
+                    Make a list of some things that can be found outside and have a scavenger hunt.
+                    Includes things like: acorn, pine cone, flat rock, leaf etc.
                 </Text>
             </View>
         </Swiper>
@@ -129,7 +133,9 @@ const styles = StyleSheet.create({
     slide: {
         flex: 1,
         paddingTop: 80,
-        marginHorizontal: 30,
+        // marginHorizontal: 10,
+        backgroundColor: "#EBDEEB",
+
     },
     img: {
         alignSelf: "center",
@@ -141,16 +147,18 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: "Montserrat_700Bold",
         marginTop: 60,
-        marginHorizontal: 10,
+        marginHorizontal: 30,
         fontSize: 32,
+        fontWeight:'bold',
     },
     text: {
         color: "#767676",
         fontFamily: "Montserrat_400Regular",
+        textAlign:"left",
         marginTop: 20,
         fontSize: 16,
         lineHeight: 25,
-        marginLeft: 10,
+        marginHorizontal: 30,
     },
 })
 
