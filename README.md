@@ -5,6 +5,10 @@ A fully functional pagination dot is displayed below the page and next to it are
 **Video**
 https://user-images.githubusercontent.com/81614588/126880155-23621c85-5ba0-45bd-aee9-747932cc026a.mp4
 
+**Screens**
+![3screens for onboarding](https://user-images.githubusercontent.com/81614588/127134834-03f0c00a-767e-401c-af9b-e308777f2966.png)
+
+
 **Edge View**
 ![Onboarding1](https://user-images.githubusercontent.com/81614588/126880801-ae7ef9c6-9562-4c05-a39c-8052fbf712b4.png)
 
